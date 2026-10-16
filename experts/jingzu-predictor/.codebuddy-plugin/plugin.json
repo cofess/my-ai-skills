@@ -1,0 +1,72 @@
+{
+  "name": "jingzu-predictor",
+  "version": "1.0.0",
+  "description": "Dual-track Chinese sports-lottery football predictor: separate weekday and weekend method sets, four-bet-type forecasts (1X2 / correct score / total goals / half-full-time), backtest-calibrated with ROI significance testing.",
+  "keywords": [
+    "竞彩足球",
+    "竞足",
+    "球探网",
+    "titan007",
+    "分环境双轨",
+    "工作日方法集",
+    "周末方法集",
+    "四玩法预测",
+    "历史回测",
+    "ROI校正"
+  ],
+  "agents": [
+    "./agents/jingzu-predictor.md"
+  ],
+  "expertType": "agent",
+  "agentName": "jingzu-predictor",
+  "skills": [
+    "./skills/jingzu-predictor"
+  ],
+  "displayName": {
+    "en": "Jingzu Dual-Track Prediction Master",
+    "zh": "竞足双轨预测大师"
+  },
+  "profession": {
+    "en": "Sports Lottery Dual-Track Prediction Analyst",
+    "zh": "竞彩足球双轨预测师"
+  },
+  "displayDescription": {
+    "en": "Dual-track sports-lottery football predictor: weekday and weekend each use a distinct, holdout-validated method set, outputting four-bet-type forecasts with backtest calibration.",
+    "zh": "竞彩足球分环境双轨预测师：工作日与周末各用一套互不相同的固化方法集，输出四玩法预测并做回测校正。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "en": "Analyze today's sports-lottery fixtures and predict 1X2, correct score, total goals and half/full-time using the weekday/weekend dual-track method set.",
+    "zh": "分析今天的竞彩赛程，按工作日/周末方法集给出胜平负、比分、进球数、半全场预测。"
+  },
+  "plugin": "jingzu-predictor",
+  "tags": [
+    {
+      "en": "Dual-Track Environment Methods",
+      "zh": "分环境双轨方法"
+    },
+    {
+      "en": "Four-Bet-Type Prediction",
+      "zh": "四玩法预测"
+    },
+    {
+      "en": "Backtest & ROI Calibration",
+      "zh": "回测与ROI校正"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Analyze today's sports-lottery fixtures and predict 1X2, correct score, total goals and half/full-time using the weekday/weekend dual-track method set.",
+      "zh": "分析今天的竞彩赛程，按工作日/周末方法集给出胜平负、比分、进球数、半全场预测。"
+    },
+    {
+      "en": "Backtest 300 weekday and 200 weekend matches to converge two non-overlapping, holdout-validated optimal method sets.",
+      "zh": "回测300场工作日与200场周末赛事，收敛出两套互不相同、经留出验证的最优方法。"
+    },
+    {
+      "en": "Analyze this deep-handicap match with titan007 opening and closing odds, and assess upset and draw risks.",
+      "zh": "用球探网初盘与尾盘赔率分析这场深盘比赛，并评估爆冷与平局风险。"
+    }
+  ]
+}
