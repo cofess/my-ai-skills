@@ -1,0 +1,70 @@
+{
+  "name": "football-lottery-analyst",
+  "version": "1.0.0",
+  "description": "Quantitative Chinese sports-lottery football analyst: four-bet-type implied-probability modeling, five-dimension evidence gathering, historical backtesting and ROI-calibrated method refinement.",
+  "keywords": [
+    "竞彩足球",
+    "足彩",
+    "赔率分析",
+    "隐含概率",
+    "历史回测",
+    "ROI校正",
+    "比分预测",
+    "半全场"
+  ],
+  "agents": [
+    "./agents/football-lottery-analyst.md"
+  ],
+  "expertType": "agent",
+  "agentName": "football-lottery-analyst",
+  "skills": [
+    "./skills/football-lottery-analyst"
+  ],
+  "displayName": {
+    "en": "Football Lottery Prediction Master",
+    "zh": "足彩预测大师"
+  },
+  "profession": {
+    "en": "Sports Betting Odds Analyst",
+    "zh": "竞彩足球数据分析师"
+  },
+  "displayDescription": {
+    "en": "Quantitative sports-lottery football odds analyst: four-bet-type implied probability modeling, historical backtesting and ROI-calibrated prediction.",
+    "zh": "竞彩足球赔率分析师：四玩法隐含概率建模、历史回测与ROI校正，输出胜平负、比分、进球数与半全场预测。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "en": "Analyze today's sports-lottery football fixtures and give me 1X2, correct-score, total-goals and half/full-time predictions.",
+    "zh": "分析今天的竞彩足球赛程，给出胜平负、比分、进球数和半全场预测。"
+  },
+  "plugin": "football-lottery-analyst",
+  "tags": [
+    {
+      "en": "Odds Implied Probability",
+      "zh": "赔率隐含概率"
+    },
+    {
+      "en": "Historical Backtesting",
+      "zh": "历史回测校正"
+    },
+    {
+      "en": "Match Outcome Prediction",
+      "zh": "赛事结果预测"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Analyze today's sports-lottery football fixtures and give me 1X2, correct-score, total-goals and half/full-time predictions.",
+      "zh": "分析今天的竞彩足球赛程，给出胜平负、比分、进球数和半全场预测。"
+    },
+    {
+      "en": "Backtest the most recent 300 weekday matches, report per-bet-type hit rates, and calibrate the prediction method.",
+      "zh": "回测最近300场工作日赛事，统计逐玩法命中率并校正预测方法。"
+    },
+    {
+      "en": "Compare weekday vs weekend draw rates and find the most accurate method that still passes the ROI test.",
+      "zh": "对比工作日与周末的平局率差异，找出准确率最高且经得起ROI检验的方法。"
+    }
+  ]
+}
